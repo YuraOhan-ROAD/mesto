@@ -1,0 +1,14 @@
+.elements__card{
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: white;
+    height: 361px;
+}
+
+@media screen and (max-width: 320px) {
+    .elements__card{
+        width: 282px;
+    }
+}
