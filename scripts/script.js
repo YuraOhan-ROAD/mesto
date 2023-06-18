@@ -1,6 +1,6 @@
 //edit button func
 let edit = document.querySelector('.profile__edit-button');
-let backgroundModal = document.querySelector('.form__opened-background');
+let backgroundModal = document.querySelector('.form-opened-background');
 let modal = document.getElementsByClassName('form')[0];
 
 //close buttom func

@@ -28,7 +28,7 @@
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/form/form.css);
-@import url(../blocks/form/__opened-background/form__opened-background.css);
+@import url(../blocks/form-opened-background/form-opened-background.css);
 @import url(../blocks/form/__content/form__content.css);
 @import url(../blocks/form/__button-cross/form__button-cross.css);
 @import url(../blocks/form/__text/form__text.css);
