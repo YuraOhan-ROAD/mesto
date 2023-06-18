@@ -22,6 +22,8 @@
 @import url(../blocks/elements/__description/elements__description.css);
 @import url(../blocks/elements/__text/elements__text.css);
 @import url(../blocks/elements/__heart-button/elements__heart-button.css);
+@import url(../blocks/elements/__heart-button/_active/elements__heart-button_active.css);
+
 
 @import url(../blocks/footer/footer.css);
 

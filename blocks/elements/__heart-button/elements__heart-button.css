@@ -2,12 +2,19 @@
     background-image: url(../../../images/Vector\ \(1\).svg);
     background-repeat: no-repeat;
     border: 0;
-    background-color: white;
+    background-color: transparent;
     width: 22px;
     height: 19px;
     cursor: pointer;
+    transition: opacity .3s ease;
 }
 
 .elements__heart-button:hover{
-    opacity: 0.6;
+    opacity: 0.4;
 }
+
+
+.elements__heart-button:focus{
+    background-image: url(../../../images/Union.svg);
+}
+
