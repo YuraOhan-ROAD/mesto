@@ -1,21 +1,21 @@
-.form__input{
+.popup__input{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     border: 0;
     padding: 0;
-    border-bottom: 1px solid rgb(84 84 84 / 70%);
     padding-bottom: 13px;
     margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0,0,0, .2);
 }
 
 @media screen and (max-width: 580px) {
-    .form__input{
+    .popup__input{
         margin-bottom: 32px;
     }
 }
 
-.form__input::placeholder{
+.popup__input::placeholder{
     color: black;
 }

@@ -4,18 +4,19 @@
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 51px;
-    position: relative;
+    align-items: center;
 }
 
 @media screen and (max-width: 660px) {
     .profile{
+        flex-direction: column;
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 580px) {
     .profile{
         margin-top: 38px;
-        margin-bottom: 36px;
+        margin-bottom: 0;
     }
 }
