@@ -10,8 +10,8 @@ let username = document.querySelector('.profile__user');
 let job = document.querySelector('.profile__job-title');
 
 
-let userInput = document.querySelector('.popup__username-input_data_username');
-let jobInput = document.querySelector('.popup__job-input_data_username');
+let userInput = document.querySelector('.popup__input_data_username');
+let jobInput = document.querySelector('.popup__input_data_job');
 
 
 let saveButton = document.querySelector('.popup__description');
