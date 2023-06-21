@@ -14,7 +14,7 @@ let userInput = document.querySelector('.popup__input_data_username');
 let jobInput = document.querySelector('.popup__input_data_job');
 
 
-let saveButton = document.querySelector('.popup__description');
+let formElement = document.querySelector('.popup__description');
 
 edit.addEventListener("click",() => {
     modal.classList.add("popup_opened");
@@ -24,7 +24,7 @@ edit.addEventListener("click",() => {
 
 closer.addEventListener("click", closePopup);
 
-saveButton.addEventListener("submit", handleFormSubmit);
+formElement.addEventListener("submit", handleFormSubmit);
 
 function handleFormSubmit(evt) {
     evt.preventDefault();
