@@ -1,5 +1,5 @@
 .profile__user{
-    max-width: 268px;
+    max-width: 294px;
     font-weight: 500;
     font-size: 42px;
     line-height: 48px;
@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 768px) {
     .profile__user{
+        max-width: 265px;
         font-size: 34px;
         line-height: 40px;  
     }
@@ -19,7 +20,7 @@
 
 @media screen and (max-width: 660px) {
     .profile__user{
-        max-width: 147px;
+        max-width: 169px;
         font-size: 23px;
         line-height: 33px;
     }
