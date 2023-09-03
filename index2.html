@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Место</title>
+</head>
+
+<body class = "page">
+    <div class="container">
+        <header class = "header">  
+            <img src="./images/Vector.svg" alt="лого сайта" class="header__logo" >
+        </header>
+        <main class = "content">
+        
+            <section class="profile">
+            <div class="profile__content">
+                <img src="./images/avatar.png" alt="Жак-Ив Кусто" class="profile__avatar">
+                <div class="profile__text">
+                    <div class="profile__flexer">
+                    <h1 class="profile__user">Жак-Ив Кусто</h1>
+                    <button type="button" class="profile__edit-button"></button>
+                    </div>
+                    <p class="profile__job-title">Исследователь океана</p>
+                </div>
+            </div>
+                <button type="button" class="profile__add-button"></button>
+            </section>
+            
+            <section class="elements" id="cards">
+                
+            </section>
+        </main>
+   
+    <footer class="footer"> © 2020 Mesto Russia</footer> 
+</div>
+
+
+
+<div class="popup-add">
+    <div class="popup__content">
+        <h2 class="popup__text">Новое место</h2>            
+        <form name="form" action="#" class="popup__description">
+            <input type="text" class="popup__input popup__input_data_username"  placeholder="Название">
+            <input type="url" class="popup__input popup__input_data_job" placeholder="Ссылка на картинку">
+            <button  type='submit' class="popup__button-submit">Сохранить</button>
+        </form>
+        <button class="popup__button-cross" type="button"></button>
+    </div>
+</div>
+
+<div class="popup">
+    <div class="popup__content">
+        <h2 class="popup__text">Редактировать профиль</h2>
+        <form name="form" action="#" class="popup__description">
+            <input type="text" class="popup__input popup__input_data_username" name="username">
+            <input type="text" class="popup__input popup__input_data_job" name="job">
+            <button type="submit" class="popup__button-submit"> Сохранить</button>
+        </form>
+        <button type="button" class="popup__button-cross"></button>
+        </div>
+    </div> 
+
+  
+    <div class="popup-pic">
+        <form class="popup-pic__content">
+            <img class="popup-pic__image" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg">
+            <h2 class="popup-pic__title">dsdsdsdsd</h2>
+            <button class="popup-pic__button-cross" type="button"></button>
+        </div>
+    </div>
+      
+
+    <template id="elements">
+        <div class="elements__card">
+          <button class="elements__delete-button" type="button"></button>
+          <img class="elements__image" src="#" alt="" />
+          <div class="elements__description">
+            <h2 class="elements__text"></h2>
+            <button class="elements__heart-button" type="button"></button>
+          </div>
+        </div>
+      </template>
+<script src="./scripts/cards.js"></script>
+<script src="./scripts/index.js"></script>
+</body>
+
+</html>
+
