@@ -64,7 +64,7 @@ function addCard(obj) {
       elementsCard.querySelector('.elements__image').src = obj.link;
       cards.insertBefore(elementsCard ,elementsCardfirst);
       addHeart();
-      removeCard()
+      removeCard();
 }
 
 function handleFormSubmit(evt) {
